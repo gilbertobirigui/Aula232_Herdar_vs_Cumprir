@@ -10,7 +10,10 @@ import model.enums.Color;
  *
  * @author Ilha Edição
  */
-public class Circle extends Shape {
+
+// agora circle herda do AbstracShape e nao mais do Shape
+
+public class Circle extends AbstracShape {
     
     private Double radius;   // raio
 

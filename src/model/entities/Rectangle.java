@@ -10,7 +10,7 @@ import model.enums.Color;
  *
  * @author Ilha Edição
  */
-public class Rectangle extends Shape {
+public class Rectangle extends AbstracShape {
     private Double width; // largura 
     private Double height;  // altura
 
